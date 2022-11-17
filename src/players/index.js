@@ -70,6 +70,12 @@ export default [
     lazyPlayer: lazy(() => import(/* webpackChunkName: 'reactPlayerKaltura' */'./Kaltura'))
   },
   {
+    key: 'peertube',
+    name: 'Peertube',
+    canPlay: canPlay.peertube,
+    lazyPlayer: lazy(() => import(/* webpackChunkName: 'reactPlayerPeerTube' */'./Peertube'))
+  },
+  {
     key: 'file',
     name: 'FilePlayer',
     canPlay: canPlay.file,
