@@ -71,9 +71,9 @@ export default [
   },
   {
     key: 'peertube',
-    name: 'Peertube',
+    name: 'PeerTube',
     canPlay: canPlay.peertube,
-    lazyPlayer: lazy(() => import(/* webpackChunkName: 'reactPlayerPeerTube' */'./Peertube'))
+    lazyPlayer: lazy(() => import(/* webpackChunkName: 'reactPlayerPeerTube' */'./PeerTube'))
   },
   {
     key: 'file',
