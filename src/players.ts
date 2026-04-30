@@ -96,7 +96,7 @@ const Players: PlayerEntry[] = [
   {
     key: 'peertube',
     name: 'PeerTube',
-    canPlay: canPlay.tiktok,
+    canPlay: canPlay.peertube,
     canEnablePIP: () => false,
     player: lazy(
       () => import(/* webpackChunkName: 'reactPlayerTiktok' */ 'peertube-video-element/react')
